@@ -111,6 +111,7 @@ h1 {
   line-height: 1;      /* interlinea strettissima */
   margin-bottom: 2rem;
   position: relative;
+  padding: 0 1rem;
 }
 
 /* "Tutto da" più piccolo e leggermente spostato a sinistra */
@@ -119,9 +120,14 @@ h1 {
   font-size: clamp(1rem, 4vw, 2rem);
   text-transform: uppercase;
   margin: 0;
-  position: relative;
-  left: -1.5ch;
   text-align: left;
+}
+
+/* Applica solo su desktop */
+@media screen and (min-width: 768px) {
+  .small-title {
+    text-indent: -1.5ch;
+  }
 }
 
 /* "rifare." molto grande */
