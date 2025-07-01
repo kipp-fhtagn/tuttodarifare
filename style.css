@@ -203,32 +203,45 @@ h1 {
   text-align: left;
 }
 
-.dark-box {
+.printing-section.dark-box {
   background-color: black;
   color: white;
-  padding: 60px 30px;
-  margin-top: 80px;
+  padding: 60px 40px;
+  margin-top: 100px;
+  font-family: 'Director', sans-serif;
+  line-height: 1.6;
 }
 
-.dark-box .section-title {
-  color: white;
+.section-title {
+  font-family: 'Avara', serif;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
-.dark-box h3 {
-  color: white;
+.printing-block {
+  margin-bottom: 50px;
 }
 
-.dark-box a {
-  color: white;
-  text-decoration: underline;
+.printing-block h3 {
+  font-family: 'Avara', serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  margin-top: 30px;
 }
 
-.dark-box ul {
-  list-style-type: square;
-  padding-left: 20px;
+.printing-block p {
+  font-size: 16px;
+  margin-bottom: 16px;
+  text-align: left;
 }
 
-.dark-box strong {
-  font-weight: bold;
-  color: white;
+.printing-block strong {
+  font-weight: 600;
+}
+
+.printing-block em {
+  font-style: italic;
+  color: #ccc;
 }
