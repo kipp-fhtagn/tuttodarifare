@@ -116,19 +116,22 @@ h1 {
 /* "Tutto da" più piccolo e leggermente spostato a sinistra */
 .small-title {
   font-family: 'Avara', sans-serif;
-  font-size: 2rem;
+  font-size: clamp(1rem, 4vw, 2rem);
   text-transform: uppercase;
   margin: 0;
   position: relative;
-  left: -1.5ch; /* spostamento a sinistra per l'effetto visivo */
+  left: -1.5ch;
+  text-align: left;
 }
 
 /* "rifare." molto grande */
 .big-title {
   font-family: 'Avara', sans-serif;
-  font-size: 7rem;
+  font-size: clamp(3rem, 12vw, 7rem);
   text-transform: uppercase;
   margin: 0;
+  line-height: 1;
+  text-align: left;
 }
 
 .card-preview {
