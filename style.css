@@ -202,3 +202,33 @@ h1 {
 .container > p {
   text-align: left;
 }
+
+.dark-box {
+  background-color: black;
+  color: white;
+  padding: 60px 30px;
+  margin-top: 80px;
+}
+
+.dark-box .section-title {
+  color: white;
+}
+
+.dark-box h3 {
+  color: white;
+}
+
+.dark-box a {
+  color: white;
+  text-decoration: underline;
+}
+
+.dark-box ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.dark-box strong {
+  font-weight: bold;
+  color: white;
+}
