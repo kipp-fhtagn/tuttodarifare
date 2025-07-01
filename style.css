@@ -140,6 +140,14 @@ h1 {
   text-align: left;
 }
 
+@media screen and (max-width: 600px) {
+  .big-title {
+    font-size: 16vw;
+    line-height: 1;
+    word-break: break-word;
+  }
+}
+
 .card-preview {
   display: flex;
   justify-content: center;
